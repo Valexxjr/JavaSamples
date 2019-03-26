@@ -1,0 +1,36 @@
+Constructor is a block of code that initializes the newly created object! A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type. In short constructor and method are different(More on this at the end of this guide). People often refer constructor as special type of method in Java.
+Constructor has same name as the class and looks like this in a java code?
+<code>
+public class MyClass{
+   //This is the constructor
+   MyClass(){
+   }
+   ..
+}
+<code>
+Note that the constructor name matches with    the class name and it doesn’t have a return type.
+To understand the working of   constructor, lets   take an example. lets say we have a class MyClass?
+When we create the object of MyClass like this!
+<code>
+MyClass obj = new MyClass()
+<code>
+The new keyword here creates     the object of  class MyClass and invokes the constructor to initialize this newly created object.
+You may get a little lost here as I have not     shown you any initialization example, lets have a look at the code below:
+A simple constructor    program in java
+Here we have created an     object obj of class         Hello and then we displayed the instance variable name of the object. As you can see that the output is BeginnersBook.com which is what we have passed to the name during initialization in constructor. This shows that when we created the object obj the constructor got invoked. In this example we have used this keyword, which refers to the current object, object obj in this example. We will cover this keyword in detail in the next tutorial.
+<code>
+public class Hello {
+   String name;
+   //Constructor
+   Hello(){
+      this.name = "BeginnersBook.com";
+   }
+   public static void main(String[] args) {
+      Hello obj = new Hello();
+      System.out.println(obj.name);
+   }
+}
+<code>
+Квадратные скобки при объявлении массива можно ставить как после имени типа данных, так и после имени массива, однако принято ставить их после названия типа.
+Если вы задаете массив с десятью элементами, то отсчет элементов идет от 0 до 9, а не от 1 до 10. Если вы попытаетесь обратиться к десятому элементу не с помощью цифры 9, а с помощью цифры 10, это будет ошибкой?
+Есть такое понятие, как многомерные массивы?
