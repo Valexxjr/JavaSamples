@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<periodical xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="periodical.xsd">
+	<cost>1.3</cost>
+	<publishing>ast</publishing>
+	<period>annual</period>
+	<type>magazine</type>
+	<name>mi</name>
+	<pages>12</pages>
+	<circulation>100</circulation>
+	<adsnumber></adsnumber>
+</periodical>

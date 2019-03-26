@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="400.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PeriodicalController">
+   <children>
+      <TableView fx:id="table" layoutX="41.0" layoutY="119.0" prefHeight="248.0" prefWidth="452.0">
+        <columns>
+          <TableColumn fx:id="period" prefWidth="72.99998474121094" text="Period" />
+            <TableColumn fx:id="cost" prefWidth="78.0" text="Cost" />
+            <TableColumn fx:id="publishingHouse" prefWidth="131.0" text="Publishing House" />
+          <TableColumn fx:id="periodical" prefWidth="157.0" text="Periodical" />
+        </columns>
+      </TableView>
+      <Button layoutX="412.0" layoutY="54.0" mnemonicParsing="false" onAction="#resort" text="Resort" />
+      <RadioButton fx:id="toggleCost" layoutX="188.0" layoutY="36.0">By cost</RadioButton>
+       <RadioButton fx:id="togglePeriod" layoutX="284.0" layoutY="36.0">By period</RadioButton>
+      <Label layoutX="27.0" layoutY="34.0" text="Sorting parameter:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="75.0" text="Sorting order:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="toggleAsc" layoutX="188.0" layoutY="77.0" mnemonicParsing="false" text="Ascending" />
+      <RadioButton fx:id="toggleDesc" layoutX="284.0" layoutY="77.0" mnemonicParsing="false" text="Descending" />
+   </children>
+</AnchorPane>
