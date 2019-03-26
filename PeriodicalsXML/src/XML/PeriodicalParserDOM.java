@@ -25,7 +25,7 @@ public class PeriodicalParserDOM implements PeriodicalParser{
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(inputFile);
         doc.getDocumentElement().normalize();
-        NodeList nodes = doc.getElementsByTagName("Periodical");
+        NodeList nodes = doc.getElementsByTagName("periodical");
         ArrayList<Periodical> periodicals = new ArrayList<>();
         for (int i = 0; i < nodes.getLength(); ++i) {
             Node node = nodes.item(i);
