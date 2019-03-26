@@ -61,5 +61,5 @@ Based on [Periodicals](https://github.com/Valexxjr/JavaSamples/tree/master/Perio
 [BankDB](https://github.com/Valexxjr/JavaSamples/tree/master/BankDatabase/BankDB) with some improvements:
 
 * using `JPA`
-* `JPAQL` queries
+* `JPQL` queries
 * `Criteria API` & `Metamodel API`
