@@ -10,7 +10,7 @@
 Simple console application
 
 ### [GUIShop](https://github.com/Valexxjr/JavaSamples/tree/master/GUIShop)
-`Swing` `:)`
+`Swing` `🙃`
 
 
 ### [Periodicals](https://github.com/Valexxjr/JavaSamples/tree/master/Periodicals/src)
